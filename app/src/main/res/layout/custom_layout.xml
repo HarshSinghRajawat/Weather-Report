@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="160dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:background="@drawable/circle"
+            android:gravity="center_horizontal" />
+
+        <TextView
+                    android:id="@+id/detail"
+                    android:layout_width="match_parent"
+                    android:paddingRight="16dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="20dp" />
+
+                <TextView
+                    android:id="@+id/context"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:paddingStart="16dp"/>
+
+                <TextView
+                    android:id="@+id/value"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="-52dp"
+                    android:textColor="@color/white"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:paddingStart="16dp" />
+
+</LinearLayout>
